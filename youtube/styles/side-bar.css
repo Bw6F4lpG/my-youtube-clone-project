@@ -1,0 +1,42 @@
+.side-bar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+}
+.side-bar-link{
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.side-bar-link:hover{
+  background-color: rgb(228, 224, 224);
+}
+.side-bar-link button{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  cursor: pointer;
+}
+.side-bar-link img{
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+.side-bar-link div{
+  font-family: Roboto, Arial;
+  font-size: 10px;
+
+}
